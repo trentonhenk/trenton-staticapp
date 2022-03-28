@@ -1,4 +1,8 @@
-# ICJ Project Rig
+# By Trenton Henk for Intro to Coding for Journalist class
+
+This repo is a class assignment to learn Static Apps
+
+## ICJ Project Rig
 
 This project rig was developed for the [Intro to Coding for Journalists](https://github.com/utdata/icj-class) class taught at different times by two different professors in the School of Journalism and Media, Moody College of Communication, University of Texas at Austin:
 
