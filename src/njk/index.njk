@@ -4,10 +4,27 @@
 {% block content %}
 <div class="container">
 <div class="row">
-  <div class="col-lg-6 col-md-5 col-sm-4 make-col-offset">
+  <div class="col-lg-6 col-md-5 col-sm-4 offset-md-3">
     <h1>A pirate's life is for me</h1>
     <p>Hempen halter mizzenmast deadlights gaff pillage starboard jack lee Blimey draught. Man-of-war piracy black jack sutler Yellow Jack keel provost overhaul execution dock rigging. Log quarterdeck dead men tell no tales red ensign gibbet grog blossom bilge Nelsons folly code of conduct gunwalls.</p>
   </div>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6 col-md-5 col-sm-4 offset-md-3"</div>
+  {% for entry in blog.blogs %}
+  <div class="col-md-8 offset-md-2">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ entry.headline }}</h5>
+        <p class="card-text">{{ entry.post }}</p>
+        <a href="{{ blog.slug }}" target="_blank">Keep Reading</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
 </div>
 </div>
 {% endblock %}
